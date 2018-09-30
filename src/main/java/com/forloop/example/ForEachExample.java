@@ -23,11 +23,15 @@ public class ForEachExample {
     }
 
     private static List<Employee> prepareEmployeeList() {
+        Employee e1=new Employee(10, "ranga", 1000);
+        Employee e2=new Employee(11, "raju", 2000);
+        Employee e3=new Employee(12, "kiran", 3000);
+        Employee e4=new Employee(13, "kumar", 4000);
         List<Employee> data = new ArrayList<>();
-        data.add(new Employee(10, "ranga", 1000));
-        data.add(new Employee(11, "raju", 2000));
-        data.add(new Employee(12, "kiran", 3000));
-        data.add(new Employee(13, "kumar", 4000));
+        data.add(e1);
+        data.add(e2);
+        data.add(e3);
+        data.add(e4);
         return data;
     }
 }
